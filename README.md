@@ -18,8 +18,16 @@ What you'll need:
 Add a following line: 
 
       "TrackingOverrides" : {    
-         "/devices/htc/vive_trackerLHR-YOURSERIAL" : "/user/head" 
-      }, 
+         "/devices/htc/vive_trackerLHR-SERIALGOESHERE" : "/user/head" 
+      },
+    
+    
+  Replace SERIALGOESHERE with your trackers serial number wich you can find in "trackers" section use the tracker with camera role:     
       
+      "trackers" : {
+         "/devices/htc/vive_trackerLHR-YOURSERIAL" : "TrackerRole_Camera"
+      }
       
-      
+6. Save the file 
+7. Turn on your tracker and start SteamVR 
+8. 
