@@ -8,6 +8,7 @@ What you'll need:
 4. Long 5m long USB cable. (Optional) 
 5. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158)
 
+
 1. Mount your Vive tracker to the Headset, I recommend mounting the Tracker on the front of the headset with Charging port facing upwards. You can use my remix if you want to do this with Reverb G2 (https://www.thingiverse.com/thing:4817158), Mount the tracker with metal screw (Printed one will break for sure ;) I used this screw: https://www.amazon.co.uk/gp/product/B00OOLKD30
 2. Connect your vive tracker to SteamVR either using USB cable with 5m extension or via its dongle. (I'm using PASSIVE 5m USB extension cable with Active hub at the end so I can plug in both Tracker and Facial tracker in. Cable: https://www.amazon.co.uk/gp/product/B01M4PKURH?psc=1 , Hub: https://www.amazon.co.uk/gp/product/B00TPMEOYM?psc=1) BIG NOTE: I tried using active 5m USB extension cable wich didn't work and resulted in unusable tracking quality, avoid active cables.
 2b. Update your tracker firmware
