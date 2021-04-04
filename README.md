@@ -43,4 +43,4 @@ OPTIONAL STEPS:
 
 KNOWN ISSUES: 
 * You can save your setting in Input Emulator but they won't be automatically applied on startup, you'll need to apply them every time you start SteamVR (If you know how to do this automatically pls message me!)  
-* If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head t racker. In order to do this
+* If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head t racker. In order to do this you'll need Space Calibrator as well to be running but once you turn on your head tracker SpaceCal will be overwritten by the tracker ;)
