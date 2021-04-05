@@ -4,7 +4,7 @@ Tutorial on how to use Vive Tracker for head tracking of WMR headset within Stea
 What you'll need: 
 1. WMR Headset (eg. Reverb G2) 
 2. Vive tracker (2.0 Recomended, 3.0 manifested increased drift in my testing) 
-3. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158)
+3. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158 , you don't need OVR Input Emulator with this mount.)
 4. OVR Input Emulator with patched .DLL (Optional) 
 5. Long 5m long USB cable. (Optional) 
 
