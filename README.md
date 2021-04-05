@@ -15,6 +15,7 @@ INSTRUCTIONS:
 2. Connect your vive tracker to SteamVR either using USB cable with 5m extension or via its dongle. (I'm using PASSIVE 5m USB extension cable with Active hub at the end so I can plug in both Tracker and Facial tracker in. Cable: https://www.amazon.co.uk/gp/product/B01M4PKURH?psc=1 , Hub: https://www.amazon.co.uk/gp/product/B00TPMEOYM?psc=1) BIG NOTE: I tried using active 5m USB extension cable which didn't work and resulted in unusable tracking quality, avoid active cables.
 
 2b. Update your tracker firmware
+
 3.  Assign your tracker a 'Camera' role in SteamVR (Controllers>Manage Vive Trackers). 
 4.  Exit SteamVR 
 5.  Now you need to edit your steamvr.vrsettings (located in C:\Program Files (x86)\Steam\config)
