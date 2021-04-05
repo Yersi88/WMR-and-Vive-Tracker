@@ -38,7 +38,7 @@ Add a following line:
 OPTIONAL STEPS: 
 9. Exit SteamVR
 10. Install OVR Input Emulator from here: https://github.com/matzman666/OpenVR-InputEmulator/releases 
-11. Replace the driver .dll with patched one from here: https://github.com/matzman666/OpenVR-InputEmulator/files/6096080/driver_00vrinputemulator.2.zip 
+11. Replace the driver .dll with patched one from here: https://github.com/matzman666/OpenVR-InputEmulator/files/6096080/driver_00vrinputemulator.2.zip , the .dll file is located here: 'C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00vrinputemulator\bin\win64'
 12. Open SteamVR and in OVR Input Emulator menu choose your tracker and hit 'Device Offsets' Adjust the DriverFromHead offset Z coordinate (to -8 if you're using my 3D printed mount, if you're using different mount you need to experiment the valuse to get the image just right)
 
 
