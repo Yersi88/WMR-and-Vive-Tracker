@@ -36,6 +36,7 @@ Add a following line:
 8. Uppon opening SteamVR your headset shoud be now tracked with Vive Tracker, try to test it by obscuring trackers view and seeing if image stutters. 
 
 OPTIONAL STEPS: 
+
 9. Exit SteamVR
 10. Install OVR Input Emulator from here: https://github.com/matzman666/OpenVR-InputEmulator/releases 
 11. Replace the driver .dll with patched one from here: https://github.com/matzman666/OpenVR-InputEmulator/files/6096080/driver_00vrinputemulator.2.zip , the .dll file is located here: 'C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00vrinputemulator\bin\win64'
@@ -43,5 +44,6 @@ OPTIONAL STEPS:
 
 
 KNOWN ISSUES: 
+
 * You can save your setting in Input Emulator but they won't be automatically applied on startup, you'll need to apply them every time you start SteamVR (If you know how to do this automatically pls message me!)  
 * If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head t racker. In order to do this you'll need Space Calibrator as well to be running but once you turn on your head tracker SpaceCal will be overwritten by the tracker ;)
