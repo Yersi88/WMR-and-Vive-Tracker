@@ -13,6 +13,7 @@ What you'll need:
 
 INSTRUCTIONS:
 
+(0. Uninstall OpenVR Input Emulator if you have it installed)
 1. Mount your Vive tracker to the Headset, You must mount the Tracker on the front of the headset with Charging port facing upwards. You can use my remix if you want to do this with Reverb G2 (https://www.thingiverse.com/thing:4817158), Mount the tracker with metal screw (Printed one will break for sure ;) I used this screw: https://www.amazon.co.uk/gp/product/B00OOLKD30 
 2. Connect your vive tracker to SteamVR either using USB cable with 5m extension or via its dongle. (I'm using PASSIVE 5m USB extension cable with Active hub at the end so I can plug in both Tracker and Facial tracker. Cable: https://www.amazon.co.uk/gp/product/B01M4PKURH?psc=1 , Hub: https://www.amazon.co.uk/gp/product/B00TPMEOYM?psc=1) **BIG NOTE:** I tried using active 5m USB extension cable which didn't work and resulted in unusable tracking quality, avoid active cables.
 3. Update your tracker firmware through SteamVR if needed.
