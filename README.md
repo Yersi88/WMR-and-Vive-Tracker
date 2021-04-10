@@ -7,7 +7,7 @@
 What you'll need: 
 1. WMR Headset (eg. Reverb G2) 
 2. Vive tracker (2.0 Recomended, 3.0 manifested increased drift in my testing) 
-3. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158 , you don't need OVR Input Emulator with this mount.)
+3. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158 , you don't need OVR Input Emulator with this mount. Sompe people had success with tripod phone mounts, you can try to use that if you don't have 3D printer.)
 4. Long 5m long USB cable. (Optional) 
 
 
