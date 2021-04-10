@@ -51,6 +51,7 @@ APPLY OFFSET TO TRACKER FIRMWARE:
 * downloadconfig 
 14. You will now have config file LHR-YOURSERIAL.json in the same directory, Back up this file! **(IMPORTANT)**
 15. Open the config with notapad and edit the line: 
+```json
 "head": {
         "plus_x": [
             1,
@@ -68,7 +69,7 @@ APPLY OFFSET TO TRACKER FIRMWARE:
             0.051509737968444824 
         ]
 },
-
+```
 
 * You can save your setting in Input Emulator but they won't be automatically applied on startup, you'll need to apply them every time you start SteamVR (If you know how to do this automatically pls message me!)  
 * If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head tracker. In order to do this you'll need Space Calibrator as well to be running but once you turn on your head tracker SpaceCal will be overwritten by the tracker ;)
