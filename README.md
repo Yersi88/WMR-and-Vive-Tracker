@@ -41,7 +41,7 @@ Add a following line:
 APPLY OFFSET TO TRACKER FIRMWARE: 
 
 10. Exit SteamVR
-11. For safety disconnect all SteamVR devices (HMDs, Trackers, Dongles...)
+11. For safety, disconnect all SteamVR devices (HMDs, Trackers, Dongles...)
 12. Connect just your head vive tracker with USB cable.
 13. Run lighthouse_console.exe (Usually in: C:\Program Files (x86)\Steam\steamapps\common\SteamVR\tools\lighthouse\bin\win64)
 14. Execute this commands: 
