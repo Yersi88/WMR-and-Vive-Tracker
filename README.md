@@ -1,8 +1,8 @@
 # WMR-and-Vive-Tracker
 Tutorial on how to use Vive Tracker for head tracking of WMR headset within SteamVR
 
-# This is new method that involves modification of Firmware of vive tracker, old method can be found in [Old_Method.md](https://github.com/)
-Proceed at your own risk, make sure to back up the configuration files, I'm not responsible if you brick yor equpment following this guide! 
+## This is new method that involves modification of Firmware of vive tracker, old method can be found in [Old_Method.md](https://github.com/)
+**Proceed at your own risk, make sure to back up the configuration files, I'm not responsible if you brick yor equpment following this guide!** 
 
 What you'll need: 
 1. WMR Headset (eg. Reverb G2) 
