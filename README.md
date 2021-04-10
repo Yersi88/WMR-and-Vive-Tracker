@@ -66,7 +66,7 @@ APPLY OFFSET TO TRACKER FIRMWARE:
         "position": [
             4.5600000930789975e-07,
             0.039768997579813004,
-            0.051509737968444824 
+            0.051509737968444824  <--- You want to change this  number, you need to add -0.13 to this number.
         ]
 },
 ```
