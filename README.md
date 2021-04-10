@@ -8,8 +8,7 @@ What you'll need:
 1. WMR Headset (eg. Reverb G2) 
 2. Vive tracker (2.0 Recomended, 3.0 manifested increased drift in my testing) 
 3. 3D Printed mount for Vive Tracker. (My remix: https://www.thingiverse.com/thing:4817158 , you don't need OVR Input Emulator with this mount.)
-4. OVR Input Emulator with patched .DLL (Optional) 
-5. Long 5m long USB cable. (Optional) 
+4. Long 5m long USB cable. (Optional) 
 
 
 INSTRUCTIONS:
@@ -40,15 +39,36 @@ Add a following line:
 7. Turn on your tracker and start SteamVR.
 8. Uppon opening SteamVR your headset shoud be now tracked with Vive Tracker, try to test it by obscuring trackers view and seeing if image stutters. 
 
-OPTIONAL STEPS: 
+APPLY OFFSET TO TRACKER FIRMWARE: 
 
 9. Exit SteamVR
-10. Install OVR Input Emulator from here: https://github.com/matzman666/OpenVR-InputEmulator/releases 
-11. Replace the driver .dll with patched one from here: https://github.com/matzman666/OpenVR-InputEmulator/files/6096080/driver_00vrinputemulator.2.zip , the .dll file is located here: 'C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\00vrinputemulator\bin\win64'
-12. Open SteamVR and in OVR Input Emulator menu choose your tracker and hit 'Device Offsets' Adjust the 'DriverFromHead' offset Z coordinate (to +13 if you're using my 3D printed mount, if you're using different mount you need to experiment the valuse to get the image just right)
+10. For safety disconnect all SteamVR devices (HMDs, Trackers, Dongles...)
+11. Connect just your head vive tracker with USB cable.
+12. Run lighthouse_console.exe (Usually in: C:\Program Files (x86)\Steam\steamapps\common\SteamVR\tools\lighthouse\bin\win64)
+13. Execute this commands: 
+* serial (you shold see only your tracker connected as LHR-YOURSERIAL from previous steps.
+* serial LHR-YOURSERIAL
+* downloadconfig 
+14. You will now have config file LHR-YOURSERIAL.json in the same directory, Back up this file! **(IMPORTANT)**
+15. Open the config with notapad and edit the line: 
+"head": {
+        "plus_x": [
+            1,
+            0,
+            0
+        ],
+        "plus_z": [
+            0,
+            0,
+            -1
+        ],
+        "position": [
+            4.5600000930789975e-07,
+            0.039768997579813004,
+            0.051509737968444824 
+        ]
+},
 
-
-KNOWN ISSUES: 
 
 * You can save your setting in Input Emulator but they won't be automatically applied on startup, you'll need to apply them every time you start SteamVR (If you know how to do this automatically pls message me!)  
 * If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head tracker. In order to do this you'll need Space Calibrator as well to be running but once you turn on your head tracker SpaceCal will be overwritten by the tracker ;)
