@@ -45,7 +45,7 @@ APPLY OFFSET TO TRACKER FIRMWARE:
 12. Connect just your head vive tracker with USB cable.
 13. Run lighthouse_console.exe (Usually in: C:\Program Files (x86)\Steam\steamapps\common\SteamVR\tools\lighthouse\bin\win64)
 14. Execute this commands: 
-* serial (you shold see only your tracker connected as LHR-YOURSERIAL from previous steps.
+* serial (you shold see only your tracker connected as LHR-YOURSERIAL from previous steps.)
 * serial LHR-YOURSERIAL
 * downloadconfig 
 15. You will now have config file LHR-YOURSERIAL.json in the same directory, Back up this file! **(IMPORTANT)**
