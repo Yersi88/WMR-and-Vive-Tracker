@@ -1,5 +1,7 @@
 # WMR-and-Vive-Tracker
-Tutorial on how to use Vive Tracker for head tracking of WMR headset within SteamVR
+# Tutorial on how to use Vive Tracker for head tracking of WMR headset within SteamVR
+
+
 
 What you'll need: 
 1. WMR Headset (eg. Reverb G2) 
