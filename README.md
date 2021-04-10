@@ -70,8 +70,28 @@ APPLY OFFSET TO TRACKER FIRMWARE:
         ]
 },
 ```
+16. Add -0.13 to the indicated number, for example my new number is: -0.078490262031555176 (Yours might be different so do the math homework yourself.) New line will look something like this:
+```json
+"head": {
+        "plus_x": [
+            1,
+            0,
+            0
+        ],
+        "plus_z": [
+            0,
+            0,
+            -1
+        ],
+        "position": [
+            4.5600000930789975e-07,
+            0.039768997579813004,
+            -0.078490262031555176  
+        ]
+},
+```
 
-* You can save your setting in Input Emulator but they won't be automatically applied on startup, you'll need to apply them every time you start SteamVR (If you know how to do this automatically pls message me!)  
+KNOWN ISSUES:
 * If you're using Full Body Tracking in VRChat than VRChat will recognize your head tracker as one of your legs (VRChat completely ignores the SteamVR tracker roles...), Workaround is to close SteamVR if running, turn off your head tracker, turn on all 3 of your body trackers, open VRChat, calibrate your avatar and lastly turn on your head tracker. In order to do this you'll need Space Calibrator as well to be running but once you turn on your head tracker SpaceCal will be overwritten by the tracker ;)
 
 
