@@ -1,7 +1,7 @@
 # WMR-and-Vive-Tracker
 *Tutorial on how to use Vive Tracker for head tracking of WMR headset within SteamVR*
 
-## NOTE: If you're C++ developper somewhat familiar with OpenVR and you'd like to contribute to this project send me a discord message: Yersinia#0091
+## NOTE: If you're C++ developper and somewhat familiar with OpenVR and you'd like to contribute to this project send me a discord message: Yersinia#0091
 
 **!!!Proceed at your own risk, make sure to back up the configuration files, I'm not responsible if you brick yor equpment following this guide!!!** 
 
